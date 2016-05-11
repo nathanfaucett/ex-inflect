@@ -1,0 +1,19 @@
+# Inflect
+
+case sensitive regular expression for splitting strings
+
+## Installation
+
+If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+
+  1. Add inflect to your list of dependencies in `mix.exs`:
+
+        def deps do
+          [{:inflect, "~> 0.0.1"}]
+        end
+
+  2. Ensure inflect is started before your application:
+
+        def application do
+          [applications: [:inflect]]
+        end
